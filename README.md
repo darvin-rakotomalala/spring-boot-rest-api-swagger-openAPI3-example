@@ -34,7 +34,7 @@ Dans cet exemple nous allons utiliser les dependances Maven suivants :
 - Pilote **PostgreSQL** - pilote JDBC pour la base de données PostgreSQL
 - **springdoc-openapi-ui** la dépendance est pour swagger Open API 3.
 
-### Test
+### Tester les APIs REST
 ---
 Pour tester la documentation API Swagger, ouvrez le navigateur et entrez l'URL suivante - `localhost:8080/swagger-ui.html` ou `http://localhost:8080/v3/api-docs` <br/>
 Soit utilisez un client REST comme postman pour importer la collection des WS en utilisant url : `http://localhost:8080/v3/api-docs`
